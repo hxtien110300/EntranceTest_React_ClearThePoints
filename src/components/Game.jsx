@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export const Game = () => {
-  const [circleCount, setCircleCount] = useState(5); //circle number
+  const [circleCount, setCircleCount] = useState(10); //circle number
   const [circles, setCircles] = useState([]); //circles
 
   const [currentStep, setCurrentStep] = useState(1);
